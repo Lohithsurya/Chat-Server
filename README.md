@@ -27,5 +27,17 @@ This project implements a simple chat server in Go, allowing multiple clients to
    - Clients are registered when they connect and unregistered when they disconnect.
    - The server ensures proper cleanup of resources when a client disconnects.
 
+## Getting Started
+
+### Prerequisites
+
+- Go 1.16 or higher
+
+### Running the Server
+
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/your-username/chat-server.git
+   cd chat-server
 
 
