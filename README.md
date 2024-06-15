@@ -39,5 +39,13 @@ This project implements a simple chat server in Go, allowing multiple clients to
    ```sh
    git clone https://github.com/your-username/chat-server.git
    cd chat-server
+2. **Run the Server**:
+   ```sh
+   go run server.go
+3.**Connect to the Server**:
+   ```sh
+   telnet localhost 8080
+         or
+   telnet (IPv4 address of the server) 8080
 
 
